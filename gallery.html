@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Photo gallery for Sree Sarovar Resort rooms, lake views, event lawn, function hall, and exterior.">
+    <title>Gallery | Sree Sarovar Resort</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html"><img class="brand-logo" src="assets/images/sri-sarovar-logo.png" alt="Sree Sarovar Resort logo"><span><strong>Sree Sarovar</strong><small>Resort</small></span></a>
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="rooms.html">Rooms</a>
+        <a href="experiences.html">Experiences</a>
+        <a href="gallery.html" aria-current="page">Gallery</a>
+        <a href="contact.html">Contact</a>
+        <a href="payment.html">Payment</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <p class="eyebrow">Photo Gallery</p>
+        <h1>Rooms, lake views, event spaces, and resort surroundings.</h1>
+        <p>Browse actual photos of Sree Sarovar Resort rooms, washrooms, building, event lawn, function hall, parking, and nearby lake views.</p>
+      </section>
+
+      <section class="section">
+        <div class="filter-bar" aria-label="Gallery categories">
+          <button class="filter-button active" type="button" data-filter="all">All</button>
+          <button class="filter-button" type="button" data-filter="rooms">Rooms</button>
+          <button class="filter-button" type="button" data-filter="views">Views</button>
+          <button class="filter-button" type="button" data-filter="outdoor">Outdoor</button>
+          <button class="filter-button" type="button" data-filter="events">Events</button>
+        </div>
+
+        <div class="gallery-grid">
+          <figure class="gallery-item" data-category="outdoor"><img src="assets/images/parking-and-resort.png" alt="Sree Sarovar Resort exterior and parking"><figcaption>Resort exterior and parking</figcaption></figure>
+          <figure class="gallery-item" data-category="rooms"><img src="assets/images/room-bed-lake-view.png" alt="Lake view room with bed"><figcaption>Lake view AC room</figcaption></figure>
+          <figure class="gallery-item" data-category="rooms"><img src="assets/images/room-lake-view-sofa.png" alt="Room sitting area with scenic view"><figcaption>Room sitting area</figcaption></figure>
+          <figure class="gallery-item" data-category="rooms"><img src="assets/images/room-bed-ac.png" alt="AC room with bed and sofa"><figcaption>AC room amenities</figcaption></figure>
+          <figure class="gallery-item" data-category="rooms"><img src="assets/images/bathroom-shower.png" alt="Attached washroom with shower"><figcaption>Attached washroom</figcaption></figure>
+          <figure class="gallery-item" data-category="events"><img src="assets/images/function-hall.png" alt="Function hall at Sree Sarovar Resort"><figcaption>Function hall</figcaption></figure>
+          <figure class="gallery-item" data-category="rooms"><img src="assets/images/room-sitting-area.png" alt="Room interior with sofa and scenic window view"><figcaption>Room interior</figcaption></figure>
+          <figure class="gallery-item" data-category="views"><img src="assets/images/lake-view-landscape.png" alt="Lake and hill view near resort"><figcaption>Rangadhama Lake view</figcaption></figure>
+          <figure class="gallery-item" data-category="views"><img src="assets/images/lake-view-evening.png" alt="Evening lake view near Chikkaballapur"><figcaption>Lake view at sunset</figcaption></figure>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div><strong>Sree Sarovar Resort</strong><p>Photos that help guests picture their visit.</p></div>
+      <div><a href="contact.html">Book from gallery</a></div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
